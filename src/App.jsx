@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import Parent from "./components/compUseContext/Parent";
 // import './App.css'
-import CompUseEffect from "./components/CompUseEffect";
+// import CompUseEffect from "./components/CompUseEffect";
 // import CompUseState from "./components/CompUseState";
 
 const Cont = styled.div`
@@ -14,7 +15,7 @@ height: 100vh; */
 const App = () => {
   return (
   <Cont>
-   <CompUseEffect />
+   <Parent />
   </Cont>
     );
 };
